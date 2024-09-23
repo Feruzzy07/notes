@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=guessGame
+comment1.params=
+comment1.target=void\ guessGame()
+comment1.text=\r\n\ \r\n\ Create\ a\ game\ that\ generates\ a\ secret\ random\ number\ between\ 1\ and\ 100;\r\n\ The\ player\ then\ guesses\ a\ number.\ If\ it\ is\ correct,\ the\ game\ is\ over.\ If\ not,\r\n\ the\ computer\ says\ "Higher"\ or\ "Lower".\r\n\ \r\n\ The\ player\ has\ up\ to\ 5\ guesses\ to\ get\ the\ number\r\n\ \r\n\ You\ will\ need\ if-statements,\ a\ for/while\ loop(we\ will\ get\ to\ these\ friday)\r\n
+comment2.params=
+comment2.target=void\ blah()
+numComments=3

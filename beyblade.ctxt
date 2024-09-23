@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=beyblade
+comment1.params=
+comment1.target=void\ beybladeGame()
+comment1.text=\r\n\ Your\ bey\ name\r\n\ Opponents\ Bey\r\n\ The\ beyblade\ type\r\n\ Random\ numbers\ for\ each\ beyblade\r\n\ Whichever\ one\ is\ higher\ wins\ the\ battle\r\n\ Determine\ that\ gap,\ and\ choose\ how\ it\ won(ex\:\ busrt/ringout)\r\n
+numComments=2

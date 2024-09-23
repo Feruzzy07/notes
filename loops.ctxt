@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=loops
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ loops\ here.\r\n\r\n\ @author\ Fernando\ Ortega\r\n\ @version\ 9.9.24\r\n
+comment1.params=
+comment1.target=void\ mystery()
+comment2.params=
+comment2.target=void\ myster3()
+comment2.text=\r\n\ \ \ \ public\ static\ void\ mystery2(){\r\n\ \ \ \ \ \ \ \ //DO\ NOT\ RUN\ THIS\!\!\!\!\!\r\n\ \ \ \ \ \ \ \ int\ i\ \=\ 0;\r\n\ \ \ \ \ \ \ \ while(true){\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println("MY\ subcriber\ count\:\ "\ +\ i);\r\n\ \ \ \ \ \ \ \ \ \ \ \ i++;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n
+comment3.params=
+comment3.target=void\ mystery4()
+comment4.params=
+comment4.target=void\ mystery5()
+numComments=5
