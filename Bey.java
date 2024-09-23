@@ -19,6 +19,7 @@ public class Bey
     private String tip;
     private boolean burst;
     private String color;
+    private boolean spin;
     
     //Constructor #1
     public Bey(){
@@ -27,6 +28,7 @@ public class Bey
         metal = "DR101";
         tip = "Valtriex speed";
         burst = false;
+        spin = false;
         color = "yellow";
     }
     
@@ -42,6 +44,10 @@ public class Bey
     //Accessor Methods
     public boolean isBurst(){
         return burst;
+    }
+    
+    public boolean isSpin(){
+        return spin;
     }
     
      public String getType(){
@@ -85,11 +91,30 @@ public class Bey
         color = newColor;
     }
     
+    public void setSpin(boolean newSpin){
+        spin = newSpin;
+    }
+    
+     public void setBurst(boolean newBurst){
+        burst = newBurst;
+    }
+    
     //Other Methods
     public void LaunchBeyblade(){
         System.out.println("You launched your beyblade! :)");
-        System.out.println("Lui just made you burst :(");
+        spin = true;
+        System.out.println("It is now spinning!");
+    }
+    
+    public void AttackLui(){
+        System.out.println("You attack Lui's beyblade");
+        System.out.println("despite your beyblade going mock 10, it burst barely touching luis bey");
+        System.out.println("your bey is now burst :(");
         burst = true;
     }
+    
+    
+    
+    
     
 }
