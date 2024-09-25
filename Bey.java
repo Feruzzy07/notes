@@ -113,6 +113,17 @@ public class Bey
         burst = true;
     }
     
+    public void PaintBeybladeBlue(){
+        System.out.println("You take your beyblade to get a paint job");
+        System.out.println("You like the color blue so you paint it");
+        System.out.println("Your beyblade is now blue");
+        color = "blue";
+    }
+    
+    //random num 1 - 10, represents your card
+    //requires an object
+    //player and dealer have this in common
+    
     
     
     

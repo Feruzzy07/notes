@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Hand
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ blackjack\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Hand()
+comment2.params=handBust
+comment2.target=Hand(boolean)
+comment3.params=
+comment3.target=int\ theTotal()
+comment4.params=
+comment4.target=boolean\ getBust()
+comment5.params=
+comment5.target=int\ getCard()
+comment6.params=
+comment6.target=int\ getCard2()
+comment7.params=newTotal
+comment7.target=void\ setTotal(int)
+comment8.params=newBust
+comment8.target=void\ setBust(boolean)
+numComments=9
