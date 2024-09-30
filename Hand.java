@@ -2,56 +2,47 @@
 /**
  * Write a description of class blackjack here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Fernando Ortega
+ * @version 9.30.24
  */
 public class Hand
 {
     private int total;
-    private boolean bust;
+    private boolean bust = false;
     private int card1; 
     private int card2;
-    
+
     //Constructor
+
     public Hand(){
-        card1 = (int)(Math.random()*9 + 1);
-        card2 = (int)(Math.random()*9 + 1);
-        total = card1 + card2;
+        card1 = getCard();
+        card2 = getCard();
     }
-    
-    public Hand(boolean handBust){
-        bust = handBust;
-        card1 = (int)(Math.random()*9 + 1);
-        card2 = (int)(Math.random()*9 + 1);
-        total = card1 + card2;
-    }
-    
+
     //Accessor methods
     public int theTotal(){
         return total;
     }
-    
+
     public boolean getBust(){
         return bust;
     }
-    
+
     public int getCard(){
+        int newCard = (int)(Math.random()*10 + 1);
+        total += newCard;
+        if (total > 21){
+            bust = true;
+        }
+        return newCard;
+    }
+
+    public int getCard1(){
         return card1;
     }
-    
+
     public int getCard2(){
         return card2;
     }
-    
-    //Mutator method
-    public void setTotal(int newTotal){
-        total = newTotal;
-    }
-    
-     public void setBust(boolean newBust){
-        bust = newBust;
-    }
-    
-    //Other methods
-    
+
 }
