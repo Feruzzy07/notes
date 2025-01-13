@@ -89,5 +89,9 @@ public class Chair{
         System.out.println("The chair is now broken");
         broken = true;
     }
+    
+     public void ohmy(){
+        System.out.println(this);
+    }
 }
     

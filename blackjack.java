@@ -3,7 +3,7 @@
  * Write a description of class blackjack here.
  *
  * @author Fernando Ortega
- * @version (9.30.24
+ * @version (9.30.24)
  */
 import java.util.Scanner;
 public class blackjack
@@ -13,7 +13,7 @@ public class blackjack
         Hand myhand = new Hand();
         Hand dealershand = new Hand();
         boolean playerTurn = true;
-        
+
         System.out.println("------BlackJack------");
         System.out.println("Dealers first card is " + dealershand.getCard1());
         System.out.println("My hand is " + myhand.theTotal());
@@ -37,7 +37,7 @@ public class blackjack
                 playerTurn = false;
             }
         }
-        
+
         //Dealer's Turn
         System.out.println("The Dealers second card was " + dealershand.getCard2());
         System.out.println("That brings the dealers total to " + dealershand.theTotal());
@@ -51,7 +51,7 @@ public class blackjack
                 return;
             }
         }
-        
+
         //Who wins?
         if(myhand.theTotal() == dealershand.theTotal()){
             System.out.println("-----------");
